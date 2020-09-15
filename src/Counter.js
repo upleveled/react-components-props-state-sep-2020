@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 // Example of State:
 // Keep track of some information that
 // will change.
-export function Counter() {
+export function MainCounter() {
   // 1. Declare the State Variable
   const [count, setCount] = useState(5);
 
