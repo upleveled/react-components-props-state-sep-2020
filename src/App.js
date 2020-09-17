@@ -9,6 +9,7 @@ import InlineStyledProfile from './styling/InlineStyledProfile';
 import EmotionProfile from './styling/EmotionProfile';
 import ControlledComponents from './ControlledComponents';
 import LiftingStateUp from './LiftingStateUp';
+import Button from './Button';
 
 const user = {
   avatar: 'https://miro.medium.com/max/580/1*tKM7HOZ4JUoMZMRLP3XbzA.png',
@@ -45,6 +46,8 @@ function App() {
         name={liftingStateUpName}
         setName={setLiftingStateUpName}
       />
+      <h1>Button with Prop Spreading</h1>
+      <Button>Example button text</Button>
       <br />
       <br />
       <br />
