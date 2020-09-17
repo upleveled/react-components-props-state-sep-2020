@@ -18,6 +18,7 @@ const user = {
 
 function App() {
   const [liftingStateUpName, setLiftingStateUpName] = useState('');
+
   return (
     <div className="App">
       <PropsHeader
