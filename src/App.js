@@ -19,6 +19,8 @@ const user = {
   lastName: 'C',
 };
 
+const Abc = 1;
+
 function App() {
   const [liftingStateUpName, setLiftingStateUpName] = useState('');
 
