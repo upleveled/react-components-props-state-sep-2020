@@ -12,14 +12,14 @@ import LiftingStateUp from './LiftingStateUp';
 import Button from './Button';
 import PropTypesComponent from './PropTypes';
 import Layout from './ChildrenPropinLayout';
+import UseEffectComponent from './UseEffectComponent';
+import DataFetchingWithUseEffect from './DataFetchingWithUseEffect';
 
 const user = {
   avatar: 'https://miro.medium.com/max/580/1*tKM7HOZ4JUoMZMRLP3XbzA.png',
   firstName: 'Joey',
   lastName: 'C',
 };
-
-const Abc = 1;
 
 function App() {
   const [liftingStateUpName, setLiftingStateUpName] = useState('');
@@ -55,6 +55,10 @@ function App() {
         <Button>Example button text</Button>
         <h1>prop-types Example</h1>
         <PropTypesComponent username="karl" />
+        <h1>useEffect Example</h1>
+        <UseEffectComponent liftingStateUpName={liftingStateUpName} />
+        <h1>Data Fetching with useEffect Example</h1>
+        <DataFetchingWithUseEffect />
         <br />
         <br />
         <br />
