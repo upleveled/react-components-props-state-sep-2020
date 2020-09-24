@@ -19,6 +19,10 @@
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "isolatedModules": true
-  }
+    "isolatedModules": true,
+    "target": "es5"
+  },
+  "include": [
+    "src"
+  ]
 }
